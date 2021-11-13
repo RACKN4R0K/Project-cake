@@ -8,7 +8,7 @@ start your my slq.
   </br>
   create table cake(
   </br>
-  id int key auto_increment,
+  id int primary key auto_increment,
   </br>
   nome varchar(40),
   </br>
