@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up Form</title>
+    <title>login</title>
     <link rel="stylesheet" href="scr/css/reset.css">
     <link rel="stylesheet" href="scr/css/login.css">
 </head>
 <body>
-    
-	</div>
     <main>
         <h1>Criar conta</h1>
         <div class="social-media">
@@ -23,28 +21,30 @@
         </div>
 
         <div class="alternative">
-            <span>OR</span>
+            <span>ou</span>
         </div>
 
-        <form action="">
-            <input type="button submit" id="button" value="Entrar" class="entrar" oncLick="javascript:location.href='entrar.html'"></input>
+
+        <form action="guardarDados.php">
+            <input type="button submit" id="button" value="Entrar" class="entrar" oncLick="javascript:location.href='entrar.html'">
             <label for="name">
                 <span>Nome</span>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="txtnome">
             </label>
 
             <label for="email">
                 <span>E-mail</span>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="txtemail">
             </label>
 
-            <label for="password">
+            <label>
                 <span>Senha do usuario</span>
-                <input type="password" id="password" name="password">
+                <input type="password" id="password" name="txtpassword">
             </label>
             <div class="botaos">
-                <input type="submit" value="Cadastrar" id="button">
-                <input type="button submit" id="button" value="Voltar" class="voltar" oncLick="javascript:location.href='index.html'"></input>
+                
+                <a href="entrar.html"class="voltar"><button type="submit">cadastrar</button></a>
+                <button type="button" value="voltar" id="button" oncLick="javascript:location.href='index.html'" class="voltar">voltar</button>
             </div>
         </form>
     </main>

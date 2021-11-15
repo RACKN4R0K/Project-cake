@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form action="scr/php/compras/compras.php">
+    <form action="compras.php">
         <div class="checkout-panel">
             <div class="panel-body">
                 <h2 class="title">Confira aqui!</h2>
@@ -69,9 +69,8 @@
         </div>
 
         <div class="panel-footer">
-         
-          <a href="bolos.html"class="btn back-btn"> voltar</a>
-          <button class="btn next-btn">Proxíma etapa</button>
+          <button class="btn  back-btn" type="button" oncLick="javascript:location.href='bolos.html'">voltar</button>
+          <a href="conclusaoPagamento.html"><button class="btn next-btn" type="submit">Concluir</button></a>
         </div>
       </div>
       <script src="scr/JS/compras.js"></script>

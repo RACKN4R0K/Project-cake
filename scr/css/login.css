@@ -91,7 +91,7 @@ main form label span {
     margin-top: 1rem;
 }
 
-main form input {
+main form button {
     width: 300px;
     height: 50px;
     padding: 0 0.5rem;
@@ -103,7 +103,7 @@ main form input {
     border-radius: 8px;
 }
 
-main form input[type="submit"] {
+main form button[type="submit"] {
     cursor: pointer;
     width: 35%;
     margin-top: 2rem;
@@ -138,31 +138,37 @@ main form [type="submit"] {
     transition: all .3s ease-in-out;
     margin-left: 15%;
     text-align: center;
+    display: flex;
+    padding: 15px 15px 15px 15px;
 }
 .entrar:hover{
     background: rgb(170, 170, 34)
 }
 .voltar{
     cursor: pointer;
-    width: 35%;
+    width: 50%;
     margin-top: 2rem;
     border: none;
     border-radius: 32px;
     background: yellow;
     color: white;
+    font-size: 1.1rem;
     transition: all .3s ease-in-out;
-    margin-left: 2%;
+    margin-left: 25%;
     text-align: center;
+    padding: 15px 15px 15px 15px;
+    
 }
 .voltar:hover{
     background: rgb(170, 170, 34)
 }
-main form input[type="submit"]:hover {
+main form button[type="submit"]:hover {
     background: rgb(170, 170, 34)
 }
 .botaos{
     display: flex;
     margin-left: 5%;
+    background-color: black;
 }
 section.images {
     width: 50vw;

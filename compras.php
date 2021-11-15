@@ -6,14 +6,14 @@
     $cvv = $_REQUEST["txtcvv"] ;
     $numero_card = $_REQUEST["txtnumero"];
 
-    include "banco/conectarBanco.php";
+    include "compras/banco/conectarBanco.php";
 
     $sql = "INSERT INTO cake (nome,validade,cvv,numero_card) values('$nome','$validade','$cvv','$numero_card')" ;     
 
     // $resultado = mysqli_query( $conexao, $sql ) ;
 
     if (mysqli_query( $conexao, $sql ) ) {
-        echo "Dados cadastrados com sucesso!!!" ;
+        header("Location: conclusaoPagamento.html");
     }
     else {
         echo "Erro ao gravar" ;
