@@ -27,6 +27,7 @@
 
         <form action="guardarDados.php">
             <input type="button submit" id="button" value="Entrar" class="entrar" oncLick="javascript:location.href='entrar.html'">
+            <input type="button" value="Voltar" id="button" oncLick="javascript:location.href='index.html'" class="entrar">
             <label for="name">
                 <span>Nome</span>
                 <input type="text" id="name" name="txtnome">
@@ -42,9 +43,9 @@
                 <input type="password" id="password" name="txtpassword">
             </label>
             <div class="botaos">
+
+                <button type="submit" class="cadastrar">cadastrar</button>
                 
-                <a href="entrar.html"class="voltar"><button type="submit">cadastrar</button></a>
-                <button type="button" value="voltar" id="button" oncLick="javascript:location.href='index.html'" class="voltar">voltar</button>
             </div>
         </form>
     </main>

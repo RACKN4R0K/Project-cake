@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #FFF;
+    background: white;
     color: black;
     font-weight: 500;
     display: flex;
@@ -26,7 +26,7 @@ main {
 }
 
 main h1 {
-    color: #000;
+    color: black;
     font-size: 3rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -57,7 +57,7 @@ main .alternative {
 main .alternative span {
     font-size: 1.1rem;
     font-weight: 400;
-    color: #000;
+    color: black;
     position: relative;
 }
 
@@ -68,7 +68,7 @@ main .alternative span::before, main .alternative span::after {
     width: 100px;
     bottom: 50%;
     right: 50px;
-    background: #000;
+    background: black;
 }
 
 main .alternative span::after {
@@ -76,6 +76,7 @@ main .alternative span::after {
 }
 
 main form {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -83,7 +84,6 @@ main form {
 main form label {
     display: flex;
     flex-direction: column;
-    padding-left: 20%;
 }
 
 main form label span {
@@ -92,12 +92,13 @@ main form label span {
 }
 
 main form input {
+    background: white;
     width: 300px;
     height: 50px;
     padding: 0 0.5rem;
     margin-top: 1rem;
     outline: none;
-    color: #000;
+    color: black;
     font-size: 1rem;
     border: 1px solid #040B18;
     border-radius: 8px;
@@ -106,19 +107,7 @@ main form input {
 main form input[type="submit"] {
     cursor: pointer;
     width: 50%;
-    margin-top: 2rem;
-    border: none;
-    border-radius: 32px;
-    background: yellow;
-    color: white;
-    font-size: 1.1rem;
-    transition: all .3s ease-in-out;
-    margin-left: 25%;
-}
-main form [type="submit"] {
-    cursor: pointer;
-    width: 50%;
-    margin-top: 2rem;
+    margin-top: 4rem;
     border: none;
     border-radius: 32px;
     background: yellow;
@@ -126,32 +115,23 @@ main form [type="submit"] {
     font-size: 1.1rem;
     transition: all .3s ease-in-out;
 }
-.voltar{
-    cursor: pointer;
-    width: 50%;
-    margin-top: 2rem;
-    border: none;
-    border-radius: 32px;
-    background: yellow;
-    color: white;
-    font-size: 1.1rem;
-    transition: all .3s ease-in-out;
-    margin-left: 25%;
-    text-align: center;
-}
-.voltar:hover{
-    background: rgb(170, 170, 34)
-}
+
 main form input[type="submit"]:hover {
-    background: rgb(170, 170, 34)
+    background: rgb(161, 161, 29);
+    transition: .7s ease-in-out 0s;
 }
+
 section.images {
     width: 50vw;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    padding: 0rem;
 }
 
+section.images img {
+    width: 100%;
+}
 
 section.images .circle {
     position: absolute;
@@ -166,7 +146,7 @@ section.images .circle {
 
 @media only screen and (min-width: 900px) and (max-width: 1200px) {
     section.images img {
-        width: 130%;
+        width: 110%;
     }
 
     section.images .circle {
