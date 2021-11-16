@@ -111,7 +111,7 @@ main form input[type="submit"] {
     border: none;
     border-radius: 32px;
     background: yellow;
-    color: white;
+    color: black;
     font-size: 1.1rem;
     transition: all .3s ease-in-out;
 }
@@ -119,6 +119,7 @@ main form input[type="submit"] {
 main form input[type="submit"]:hover {
     background: rgb(161, 161, 29);
     transition: .7s ease-in-out 0s;
+    color: white;
 }
 
 section.images {
