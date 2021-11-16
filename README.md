@@ -19,6 +19,9 @@ start your my slq.
   numero_card int(16)
   </br>
 )
+<br>
+<br>
+<br>
  create table login(
   </br>
   codigo int primary key auto_increment,
