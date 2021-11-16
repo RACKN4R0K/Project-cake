@@ -6,6 +6,7 @@ start your my slq.
 
   use projeto;
   </br>
+  <br>
   create table cake(
   </br>
   id int primary key auto_increment,
