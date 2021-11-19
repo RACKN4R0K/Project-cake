@@ -4,7 +4,7 @@
     $password = $_REQUEST["txtsenha"] ;
 
 
-    include "login/banco/conectarBanco.php" ;
+    include "php/login/banco/conectarBanco.php" ;
 
     $sql = "SELECT * from login where email='$email' and senha='$password'" ;
 
@@ -13,11 +13,10 @@
     $quantidade = mysqli_num_rows($resultado) ;
 
     if ($quantidade == 0 ) {
-        echo "Login/senha incorreto" ;
-        echo "<br>" ;
-        echo "<a href='entar.html'>Voltar</a>" ;
+        echo "<script>alert('Email/Senha errada')</script>";
     }else{
         header("Location: index.html");
+        echo "<script>alert('Login efetuado com sucesso!')</script>";
     }
 
 ?>
