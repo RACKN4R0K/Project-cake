@@ -6,6 +6,7 @@ start your my slq.
 
   use projeto;
   </br>
+  <br>
   create table cake(
   </br>
   id int primary key auto_increment,
@@ -17,6 +18,20 @@ start your my slq.
   cvv int(3),
   </br>
   numero_card int(16)
+  </br>
+)
+<br>
+<br>
+<br>
+ create table login(
+  </br>
+  codigo int primary key auto_increment,
+  </br>
+  nome varchar(40),
+  </br>
+  email varchar(40),
+  </br>
+  senha varchar(40),
   </br>
 )
 
