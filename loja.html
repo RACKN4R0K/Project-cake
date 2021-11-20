@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="scr/css/reset.css">
 	<link rel="stylesheet" href="scr/css/menu.css">
 	<link rel="stylesheet" href="scr/css/mapa.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>HOME | PAGE</title>
 </head>
+<body id="body">
 <div>
     <header class="cabecalhoPrincipal">
 		<a name="Top"></a>
 		<div class="container">
 			<h1 class="cabecalhoPrincipal-logo">
-				<a href="index.html"><img src="scr/assents/imagens/menu/imagem-logo.png" alt="Logo do Site" class="logo-menu"></a>
+				<a href="index.html"><img src="scr/assents/imagens/menu/imagem-logo.png" alt="Logo do Site" class="logo-menu" data-aos="fade-right"></a>
 				
 			</h1>
 			<div class="header"> 
@@ -68,5 +71,13 @@
             <a href="#top" class="top">voltar</a>
         </div>
     </footer>
+	<script src="scr/JS/menu-aberto.js"></script>
+	<script>
+        AOS.init({
+            once:true,
+            duration: 1500
+        });
+
+      </script>
 </body>
 </html>

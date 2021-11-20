@@ -125,6 +125,7 @@ font-weight: 900;
 font-size: 22px;
 text-align: center;
 padding-top: 30px;
+margin-top: 5%;
 }
 .conteudo-detalhes{
 display: flex;
@@ -172,7 +173,7 @@ transition: .5s ease-in-out 0s;
   text-transform: uppercase;
   text-align: center;
   font-size: 22px;
-  margin-top: 25px;
+  padding-top: 5%;
 }
 .qualidades-conteudo{
   display: flex;
@@ -235,3 +236,4 @@ transition: .5s ease-in-out 0s;
   color: #000;
   
 }
+

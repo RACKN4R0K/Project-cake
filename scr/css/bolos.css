@@ -1,4 +1,6 @@
-
+.menu-aberto{
+    overflow: hidden;
+}
 .produtos{
     width: 940px;
     margin: auto;
