@@ -8,7 +8,7 @@
     $sql = "INSERT INTO login (nome,email,senha) values('$nome','$email','$pwd')";
 
     if (mysqli_query( $conexao, $sql ) ) {
-        header("Location: entrar.html");
+        header("Location:./../../entrar.html");
     }
     else {
         echo "Erro ao gravar" ;

@@ -15,8 +15,7 @@
     if ($quantidade == 0 ) {
         echo "<script>alert('Email/Senha errada')</script>";
     }else{
-        echo "<script>alert('Login efetuado com sucesso!')</script>";
-        header("Location: index.html");
+        header("Location: ./../../index.html");
         
     }
 
