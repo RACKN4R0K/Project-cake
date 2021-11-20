@@ -2,7 +2,7 @@
 
     $codigo = $_REQUEST["codigo"] ;
 
-    include "banco/conectarBanco.php";
+    include "../conectarBanco.php";
     
     $sql = "DELETE from login where codigo=$codigo";
 

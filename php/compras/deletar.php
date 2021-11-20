@@ -2,7 +2,7 @@
 
     $id = $_REQUEST["id"] ;
 
-    include "banco/conectarBanco.php";
+    include "../conectarBanco.php";
     
     $sql = "DELETE from cake where id=$id";
 

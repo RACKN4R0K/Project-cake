@@ -1,5 +1,5 @@
 <?php
-    include "php/login/banco/conectarBanco.php";
+    include "../conectarBanco.php";
 
     $nome  = $_REQUEST["txtnome"]  ;
     $email = $_REQUEST["txtemail"] ;

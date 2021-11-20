@@ -4,7 +4,7 @@
     $password = $_REQUEST["txtsenha"] ;
 
 
-    include "php/login/banco/conectarBanco.php" ;
+    include "../conectarBanco.php";
 
     $sql = "SELECT * from login where email='$email' and senha='$password'" ;
 
