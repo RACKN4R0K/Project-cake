@@ -26,45 +26,6 @@ body {
     padding-left: 45px;
     padding-top: 15px;
 }
-.cabecalhoPrincipal-nav-link {
-	padding: 20px;
-	color: #020202;
-	background-color: #fff;
-	text-decoration: none;
-	transition: .5s;
-	display: block;
-  font-size: 18px;
-  text-align: center;
-}
-.cabecalhoPrincipal-nav-link:hover{
-    color: coral;
-    background-color: lightblue;
-    border-radius: 15px;
-}
-.cabecalhoPrincipal .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.cabecalhoPrincipal-nav{
-    display: flex;
-}
-.cabecalhoPrincipal-nav-link-login{
-    background-color: cyan;
-    border-radius: 10px;
-    font-family: Montserrat, sans-serif;  
-}
-.ifood-logo{
-    width: 80px;
-    height: 50px;
-    padding-left: 15px;
-    margin-top: 10px;
-}
-.imagem-em-preto-e-branco img{
-    width: 100%;
-}
-
 /*Menu hamburguer*/
 
 .header-container{
