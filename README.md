@@ -36,3 +36,11 @@ start your my slq.
 )
 
 This is a project I'm finishing, it's a bake sale, where the customer will be able to choose which cake to buy, enter their card information to make the payment (of course it's not the best way to do it, but how am I starting with PHP is already a big evolution).
+<br><br><br>
+This site is ready, I finished it recently, I managed to post it on the internet at the link: project-cake.vercel.app
+<br><br>
+This link does not work either PHP or the database, but you can get an idea of its graphic design.
+<br><br>
+Thanks to everyone who is viewing the site, I appreciate suggestions if you find any errors. :)
+<br><br>
+I didn't make the responsive part of the site, just for desktop.
