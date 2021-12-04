@@ -216,3 +216,8 @@ a:hover{
 .imagem-em-preto-e-branco img{
     width: 100%;
 }
+@media (max-width: 600px){
+  .logo-menu{
+    margin-left: -80px;
+  }
+}
